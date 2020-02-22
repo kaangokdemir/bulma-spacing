@@ -1,0 +1,36 @@
+// Variables
+$max: 100;
+$offset: 1;
+$unit: 'px';
+$important: '!important';
+$minus: 'minus';
+// Function
+@mixin class-loop($className, $styleName) {
+  $i: -100;
+
+  @while $i < 0 {
+    #{$className + $minus + $i} {
+      #{$styleName}: #{$i + $unit + $important};
+    }
+    $i: $i + $offset;
+  }
+
+  @while 0 <= $i and $i <= $max {
+    #{$className + $i} {
+      #{$styleName}: #{$i + $unit + $important};
+    }
+    $i: $i + $offset;
+  }
+}
+// Margins
+@include class-loop('.has-margin-top-', 'margin-top');
+@include class-loop('.has-margin-right-', 'margin-right');
+@include class-loop('.has-margin-bottom-', 'margin-bottom');
+@include class-loop('.has-margin-left-', 'margin-left');
+@include class-loop('.has-margin-', 'margin');
+// Paddings
+@include class-loop('.has-padding-top-', 'padding-top');
+@include class-loop('.has-padding-right-', 'padding-right');
+@include class-loop('.has-padding-bottom-', 'padding-bottom');
+@include class-loop('.has-padding-left-', 'padding-left');
+@include class-loop('.has-padding-', 'padding');

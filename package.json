@@ -1,0 +1,55 @@
+{
+  "name": "bulma-spacing",
+  "version": "0.0.1",
+  "description": "Missing spacing classes for Bulma ecosystem",
+  "main": "bulma-spacing.scss",
+  "unpkg": "css/bulma-helpers.css",
+  "style": "bulma-helpers/css/bulma-spacing.min.css",
+  "scripts": {
+    "build": "npm run build-clean && npm run build-sass && npm run build-autoprefix && npm run build-cleancss",
+    "build-autoprefix": "postcss --use autoprefixer --map false --output css/bulma-spacing.css css/bulma-spacing.css",
+    "build-cleancss": "cleancss -o css/bulma-spacing.min.css css/bulma-spacing.css",
+    "build-clean": "rimraf css",
+    "build-sass": "node-sass --output-style expanded --source-map true bulma-spacing.scss css/bulma-spacing.css",
+    "deploy": "npm run build",
+    "start": "npm run build-sass -- --watch"
+  },
+  "files": [
+    "css",
+    "sass",
+    "bulma-spacing.scss",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaangokdemir/bulma-spacing.git"
+  },
+  "keywords": [
+    "bulma",
+    "bulma-spacing",
+    "atomic css",
+    "atomic-css",
+    "atomic",
+    "css",
+    "sass",
+    "flexbox",
+    "responsive",
+    "framework",
+    "functional",
+    "spacing"
+  ],
+  "author": "Kaan Gökdemir",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kaangokdemir/bulma-spacing/issues"
+  },
+  "homepage": "https://github.com/kaangokdemir/bulma-spacing#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.3.1",
+    "clean-css-cli": "^4.2.1",
+    "node-sass": "^4.12.0",
+    "postcss-cli": "^6.1.2",
+    "rimraf": "^2.6.2"
+  },
+  "dependencies": {}
+}
