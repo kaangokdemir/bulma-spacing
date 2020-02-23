@@ -10,7 +10,7 @@
 
 ## Installation and Usage
 
-### With JavaScript
+### With JavaScript (Recommended)
 
 #### Install Module First
 
