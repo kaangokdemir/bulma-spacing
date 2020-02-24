@@ -7,6 +7,8 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![npm package](https://img.shields.io/npm/v/bulma-spacing.svg)](https://www.npmjs.org/package/bulma-spacing) [![downloads](https://img.shields.io/npm/dt/bulma-spacing.svg)](https://www.npmjs.com/package/bulma-spacing) [![size](https://img.shields.io/bundlephobia/minzip/bulma-spacing)](https://www.npmjs.com/package/bulma-spacing)
 
+<a href="https://bulma.io"><img src="https://raw.githubusercontent.com/jgthms/bulma/master/docs/images/bulma-banner.png" alt="Bulma: a Flexbox CSS framework" style="max-width:100%;" width="600"></a>
+<a href="https://github.com/kaangokdemir/bulma-spacing"><img src="https://bulma.io/images/extensions/bulma-spacing.png" alt="Bulma Spacing" style="max-width:100%;" width="600"></a>
 
 ## Installation and Usage
 
