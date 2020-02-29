@@ -63,10 +63,11 @@ values(px): -100, -99, -98 ... -1 0 1 2 3 ... 98 99 100 (-100 to 100)
 ```css
 .{property}-{direction}-minus-{value}
 ```
+Note: negative padding is not supported by CSS
 ```
 .margin-top-minus-100 // margin-top: -100px !important
-.padding-bottom-minus-17 // padding-bottom: -17px !important
-.padding-right-minus-33 // padding-right: -33px !important
+.margin-bottom-minus-17 // margin-bottom: -17px !important
+.margin-right-minus-33 // margin-right: -33px !important
 ```
 
 
