@@ -51,23 +51,23 @@ values(px): -100, -99, -98 ... -1 0 1 2 3 ... 98 99 100 (-100 to 100)
 ### For positive numbers
 
 ```css
-.{property}-{direction}-{value}
+.has-{property}-{direction}-{value}
 ```
 ```
-.margin-top-24 // margin-top: 24px !important
-.padding-right-6 // padding-right: 6px !important
-.margin-left-0 // margin-left: 0px !important
+.has-margin-top-24 // margin-top: 24px !important
+.has-padding-right-6 // padding-right: 6px !important
+.has-margin-left-0 // margin-left: 0px !important
 ```
 ### For negative numbers
 
 ```css
-.{property}-{direction}-minus-{value}
+.has-{property}-{direction}-minus-{value}
 ```
 Note: negative padding is not supported by CSS
 ```
-.margin-top-minus-100 // margin-top: -100px !important
-.margin-bottom-minus-17 // margin-bottom: -17px !important
-.margin-right-minus-33 // margin-right: -33px !important
+.has-margin-top-minus-100 // margin-top: -100px !important
+.has-margin-bottom-minus-17 // margin-bottom: -17px !important
+.has-margin-right-minus-33 // margin-right: -33px !important
 ```
 
 
