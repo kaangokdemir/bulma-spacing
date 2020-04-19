@@ -1,9 +1,10 @@
 {
   "name": "bulma-spacing",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Missing spacing classes for Bulma ecosystem",
   "main": "./css/bulma-spacing.min.css",
   "unpkg": "./css/bulma-spacing.min.css",
+  "jsdelivr": "./css/bulma-spacing.min.css",
   "style": "bulma-spacing/css/bulma-spacing.min.css",
   "scripts": {
     "build": "npm run build-clean && npm run build-sass && npm run build-autoprefix && npm run build-cleancss",

@@ -36,7 +36,7 @@ import 'bulma-spacing'
 #### Add that line at the end of your head element on your HTML file
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-spacing/css/bulma-spacing.min.css">
+<link rel="stylesheet" href="https://unpkg.com/bulma-spacing">
 ```
 
 ## How to use
