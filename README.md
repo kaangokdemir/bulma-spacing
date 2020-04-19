@@ -27,13 +27,13 @@ npm i bulma-spacing
 #### Then just import in your .js file
 
 ```javascript
-import 'bulma-spacing/css/bulma-spacing.min.css'
+import 'bulma-spacing'
 ```
 
 
 ### Without JavaScript
 
-#### Add that line into your head element
+#### Add that line at the end of your head element on your HTML file
 
 ```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-spacing/css/bulma-spacing.min.css">
@@ -63,7 +63,7 @@ values(px): -100, -99, -98 ... -1 0 1 2 3 ... 98 99 100 (-100 to 100)
 ```css
 .has-{property}-{direction}-minus-{value}
 ```
-Note: negative padding is not supported by CSS
+**Note:** Negative padding is not supported by CSS
 ```
 .has-margin-top-minus-100 // margin-top: -100px !important
 .has-margin-bottom-minus-17 // margin-bottom: -17px !important
@@ -81,7 +81,11 @@ Note: negative padding is not supported by CSS
 
 ### Contributors
 
-Kaan Gökdemir - Author ([@kaangokdemir](https://twitter.com/kaangokdemir)) - [kaangokdemir.com](https://kaangokdemir.com) 
+Kaan Gökdemir - Maintainer ([@kaangokdemir](https://twitter.com/kaangokdemir)) - [kaangokdemir.com](https://kaangokdemir.com) 
+
+### Changelog
+
+See the [CHANGELOG.md](https://github.com/kaangokdemir/bulma-spacing/blob/master/CHANGELOG.md) file
 
 ### License
 
