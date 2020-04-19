@@ -7,6 +7,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v1
       - name: Package Building
+        run: npm ci
         run: npm run build
         env:
           CI: true
