@@ -1,6 +1,6 @@
 {
   "name": "bulma-spacing",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Missing spacing classes for Bulma ecosystem",
   "main": "./css/bulma-spacing.min.css",
   "unpkg": "./css/bulma-spacing.min.css",
@@ -13,6 +13,7 @@
     "build-clean": "rimraf css",
     "build-sass": "node-sass --output-style expanded --source-map true bulma-spacing.scss css/bulma-spacing.css",
     "deploy": "npm run build",
+    "prepublishOnly": "npm run build",
     "start": "npm run build-sass -- --watch"
   },
   "files": [
