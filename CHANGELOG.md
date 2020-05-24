@@ -1,3 +1,7 @@
+## 2.0.0
+- Unnecessary negative padding classes removed.
+- Prettier configuration added.
+
 ## 1.2.0
 - Recommended CDN link changed from `https://cdn.jsdelivr.net/npm/bulma-spacing` to `https://unpkg.com/bulma-spacing`
 - Duplicate build `.css`file entirely removed.
