@@ -9,8 +9,10 @@ $minus: 'minus';
   $i: -100;
 
   @while $i < 0 {
-    #{$className + $minus + $i} {
-      #{$styleName}: #{$i + $unit + $important};
+    @if str-index($styleName, 'margin') {
+      #{$className + $minus + $i} {
+        #{$styleName}: #{$i + $unit + $important};
+      }
     }
     $i: $i + $offset;
   }
