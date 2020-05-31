@@ -1,6 +1,6 @@
 {
   "name": "bulma-spacing",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "Missing spacing classes for Bulma ecosystem",
   "main": "./css/bulma-spacing.min.css",
   "unpkg": "./css/bulma-spacing.min.css",
@@ -50,13 +50,15 @@
   },
   "homepage": "https://github.com/kaangokdemir/bulma-spacing#readme",
   "devDependencies": {
-    "autoprefixer": "^9.3.1",
+    "autoprefixer": "^9.8.0",
     "clean-css-cli": "^4.2.1",
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.14.1",
     "postcss-cli": "^6.1.2",
     "prettier": "2.0.5",
     "rimraf": "^2.6.2"
   },
-  "publishConfig": { "registry": "https://npm.pkg.github.com/@kaangokdemir" },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@kaangokdemir"
+  },
   "dependencies": {}
 }
