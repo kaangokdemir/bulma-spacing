@@ -1,3 +1,6 @@
+## 2.1.0
+- Bulma's own spacing classes suggested
+
 ## 2.0.0
 - Unnecessary negative padding classes removed.
 - Prettier configuration added.
