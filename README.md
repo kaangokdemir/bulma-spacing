@@ -10,7 +10,7 @@
 <a href="https://bulma.io"><img src="https://raw.githubusercontent.com/jgthms/bulma/master/docs/images/bulma-banner.png" alt="Bulma: a Flexbox CSS framework" style="max-width:100%;" width="600"></a>
 <a href="https://github.com/kaangokdemir/bulma-spacing"><img src="https://bulma.io/images/extensions/bulma-spacing.png" alt="Bulma Spacing" style="max-width:100%;" width="600"></a>
 
-> Note: Bulma released missing spaces classes with version [0.9.0.](https://bulma.io/documentation/helpers/spacing-helpers/) (June 2020) If your project is using Bulma and if you think generic classes should be enough, it is suggested to use official spacing classes. However you may still consider to use this package with pixel perfect needed designs, your legacy projects or with non-Bulma projects (since this is a zero dependency package). 
+> Note: Bulma released missing spacing helpers with version [0.9.0.](https://bulma.io/documentation/helpers/spacing-helpers/) (June 2020) If your project is using Bulma and if you think generic classes should be enough, it is suggested to use official spacing classes. However you may still consider to use this library with pixel perfect needed designs, with your pre 0.9.0 Bulma projects or with non-Bulma projects as well. (since this is a zero dependency package). 
 
 ## Installation and Usage
 
