@@ -1,6 +1,6 @@
 {
   "name": "bulma-spacing",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "Missing spacing classes for Bulma ecosystem",
   "main": "./css/bulma-spacing.min.css",
   "unpkg": "./css/bulma-spacing.min.css",
