@@ -1,6 +1,6 @@
 {
   "name": "bulma-spacing",
-  "version": "2.1.4",
+  "version": "2.1.5",
   "description": "Missing spacing classes for Bulma ecosystem",
   "main": "./css/bulma-spacing.min.css",
   "unpkg": "./css/bulma-spacing.min.css",
@@ -15,7 +15,8 @@
     "deploy": "npm run build",
     "prepublishOnly": "npm run build",
     "start": "npm run build-sass -- --watch",
-    "format": "prettier --write '**/*.scss'"
+    "format": "prettier --write '**/*.scss'",
+    "update": "npx ncu -u -t minor && npm install"
   },
   "files": [
     "css",
@@ -51,11 +52,11 @@
   "homepage": "https://github.com/kaangokdemir/bulma-spacing#readme",
   "devDependencies": {
     "autoprefixer": "^9.8.6",
-    "clean-css-cli": "^4.2.1",
+    "clean-css-cli": "^4.3.0",
     "node-sass": "^4.14.1",
-    "postcss-cli": "^6.1.2",
-    "prettier": "2.1.1",
-    "rimraf": "^2.6.2"
+    "postcss-cli": "^6.1.3",
+    "prettier": "2.2.0",
+    "rimraf": "^2.7.1"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/@kaangokdemir"
